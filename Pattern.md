@@ -91,4 +91,22 @@ for i in range(1, taking_input+1):
     taking_input-=1
    
 ```
-s
+# PATTERN-6
+
+```python
+
+1 2 3 4 5 
+1 2 3 4 
+1 2 3 
+1 2 
+1 
+
+
+#code
+taking_input = int(input())
+
+for i in range(taking_input+1, 1, -1):
+    for j in range(1,i):
+        print(j, end=" ")
+    print()
+```
