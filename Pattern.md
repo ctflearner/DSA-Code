@@ -133,3 +133,20 @@ if(i==taking_input):
         print('*'*j)
 
 ```
+
+# PATTERN-8
+```python
+1 
+0 1 
+1 0 1 
+0 1 0 1 
+1 0 1 0 1
+
+# Code
+taking_input = int(input())
+
+for i in range(1,taking_input+1):
+    for j in range(i,i+i):
+        print(j%2, end=" ")
+    print()   
+```
