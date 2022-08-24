@@ -110,3 +110,26 @@ for i in range(taking_input+1, 1, -1):
         print(j, end=" ")
     print()
 ```
+
+# PATTERN-7
+```python
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+
+# code
+taking_input = int(input())
+
+for i in range(1,taking_input+1):
+    print('*'*i)
+if(i==taking_input):
+    for j in range(taking_input-1,0,-1):
+        print('*'*j)
+
+```
