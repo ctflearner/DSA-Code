@@ -150,3 +150,24 @@ for i in range(1,taking_input+1):
         print(j%2, end=" ")
     print()   
 ```
+
+# PATTERN-9
+```python
+
+
+
+
+
+
+# code
+taking_input = int(input())
+
+#for i in range(1,taking_input+1):
+ #   for j in range(1,i+1):
+  #      print(j, end="")
+   # print()
+for i in range(taking_input,1,-1):
+    for j in range(i+1,1,-1):
+        print(j, end="")
+    print()    
+```
