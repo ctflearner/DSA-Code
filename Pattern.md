@@ -171,3 +171,28 @@ for i in range(taking_input,1,-1):
         print(j, end="")
     print()    
 ```
+
+# PATTERN-10
+```python
+1      1
+12    21
+123  321
+12344321
+
+
+# Code
+taking_input=int(input())
+
+for i in range(1,taking_input+1):
+    for j in range(1,taking_input+1):
+        if(j<=i):
+            print(j, end="")
+        else:
+            print(" ", end="")
+    for k in range(taking_input,0,-1):
+        if(k<=i):
+            print(k, end="")
+        else:
+            print(" ", end="")
+    print() 
+```
