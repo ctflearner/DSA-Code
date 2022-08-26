@@ -215,3 +215,21 @@ for i in range(0,taking_input):
         num += 1
     print()   
 ```
+
+
+# PATTERN-12
+```python
+A
+AB
+ABC
+ABCD
+ABCDE
+
+# Code
+taking_input = int(input())
+
+for i in range(taking_input):
+    for j in range(i+1):
+        print(chr(j+65),end="")
+    print()  
+```
