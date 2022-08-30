@@ -21,4 +21,18 @@ print(f"Number of digits in {taking_input} is {count(taking_input)}")
 Time Complexity: O(n) , n is the number of digit in a given integer
 Space Complexity: O(1)
 
+# Code-2
+
+def count_digit(taking_input):
+    converting_to_string = str(taking_input)
+    return len(converting_to_string)
+    
+
+taking_input = int(input())
+print(f"Number of digits in {taking_input} is {count_digit(taking_input)}")
+
+Time Complexity: O(1)
+Space Complexity: O(1)
+
+
 ```
