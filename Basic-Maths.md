@@ -100,3 +100,31 @@ taking_Second_number=int(input())
 
 print(f"The gcd of two number is: {hcf(taking_first_number,taking_Second_number)}")
 ```
+
+# Problem-4: Check if a number is Armstrong Number or not
+```javascript
+Problem Statement: Given a number, check if it is Armstrong Number or Not.
+
+# Output:
+153
+Yes, it is Armstrong Number
+
+# CODE
+def checking_armstrong(taking_input):
+    copying_the_number = taking_input
+    sum_of_the_number =0
+    while(copying_the_number!=0):
+        remainder = copying_the_number % 10
+        sum_of_the_number+=remainder**3
+        copying_the_number = copying_the_number//10
+    if taking_input == sum_of_the_number:
+        print("Yes, it is Armstrong Number")
+    else:
+        print("No it is not a Armstrong Number")
+    
+
+taking_input = int(input())
+checking_armstrong(taking_input)
+
+
+```
