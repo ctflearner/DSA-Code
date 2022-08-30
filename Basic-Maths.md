@@ -1,4 +1,4 @@
-# Count digits in a number
+# Problem-1: Count digits in a number
 ```javascript
 Problem Statement: Given an integer N , write program to count number of digits in N.
 
@@ -17,5 +17,8 @@ def count(n):
 
 taking_input=int(input())
 print(f"Number of digits in {taking_input} is {count(taking_input)}")
+
+Time Complexity: O(n) , n is the number of digit in a given integer
+Space Complexity: O(1)
 
 ```
