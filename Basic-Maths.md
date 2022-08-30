@@ -78,3 +78,25 @@ def check_palindrome(taking_input):
 taking_input = int(input())
 check_palindrome(taking_input)
 ```
+
+# Problem-3:Find GCD of two numbers
+```javascript
+Problem Statement: Find gcd of two numbers.
+
+# Output:
+4
+8
+The gcd of two number is: 4
+
+#code
+def hcf(a,b):
+    if b==0:
+        return a 
+    else:
+        return hcf(b,a%b)
+    
+taking_first_number=int(input())
+taking_Second_number=int(input())
+
+print(f"The gcd of two number is: {hcf(taking_first_number,taking_Second_number)}")
+```
