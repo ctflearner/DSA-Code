@@ -53,3 +53,28 @@ def reverse_a_number(taking_input):
 taking_input = int(input())
 print(f"Reverse of a  number : {reverse_a_number(taking_input)}")
 ```
+
+# Problem-3:Check if a number is Palindrome or Not 
+```javascript
+Problem Statement:  Given a number check if it is a palindrome.
+
+# Output:
+123
+Not a Palindrome Number
+
+
+
+
+#-Code
+def check_palindrome(taking_input):
+    copy_of_the_number=taking_input
+    converting=int(str(copy_of_the_number)[::-1])
+    if converting == taking_input:
+        print("Palindrome Numer")
+    else:
+        print("Not a Palindrome Number")
+
+
+taking_input = int(input())
+check_palindrome(taking_input)
+```
