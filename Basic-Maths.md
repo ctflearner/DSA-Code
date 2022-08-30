@@ -148,3 +148,30 @@ def checking_for_divisor(taking_input):
 taking_input = int(input())
 checking_for_divisor(taking_input)
 ```
+
+# Problem-6:
+```javascript
+
+
+Problem statement: check whether a number is prime or not
+
+#Code
+def check_prime(taking_input):
+    if taking_input > 1:
+        for i in range(2, int(taking_input/2)+1):
+            if(taking_input%i==0):
+                print(f"{taking_input},is not a prime number")
+                break
+            else:
+                print(f"{taking_input},is a prime number")
+                break
+    
+    else:
+        print(f"{taking_input},is not a prime number")
+        
+        
+        
+taking_input=int(input()) 
+check_prime(taking_input)
+        
+```
