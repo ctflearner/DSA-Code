@@ -37,3 +37,19 @@ Space Complexity: O(1)
 
 
 ```
+
+# Problem-2: Reverse a number 
+
+```javascript
+
+Problem Statement: Given a number N reverse the number and print it.
+123456
+Reverse of a  number : 654321
+
+# Code
+def reverse_a_number(taking_input):
+    return str(taking_input)[::-1]
+    
+taking_input = int(input())
+print(f"Reverse of a  number : {reverse_a_number(taking_input)}")
+```
