@@ -20,6 +20,7 @@ print(f"Number of digits in {taking_input} is {count(taking_input)}")
 
 Time Complexity: O(n) , n is the number of digit in a given integer
 Space Complexity: O(1)
+--------------------------------------------------------------------------------------------
 
 # Code-2
 
