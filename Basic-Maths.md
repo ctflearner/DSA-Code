@@ -149,7 +149,7 @@ taking_input = int(input())
 checking_for_divisor(taking_input)
 ```
 
-# Problem-6:
+# Problem-6: Check whether a number is prime or not
 ```javascript
 
 
