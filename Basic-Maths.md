@@ -128,3 +128,23 @@ checking_armstrong(taking_input)
 
 
 ```
+
+# Problem-5: Print all Divisors of a given Number
+```javascript
+Given a number, print all the divisors of the number. A divisor is a number that gives remainder as zero when divided.
+
+#Output:
+36
+1 2 3 4 6 9 12 18 36
+
+# Code
+def checking_for_divisor(taking_input):
+    for i in range(1,taking_input+1):
+        if (taking_input%i==0):
+            print(i, end=" ")
+    print()        
+            
+
+taking_input = int(input())
+checking_for_divisor(taking_input)
+```
