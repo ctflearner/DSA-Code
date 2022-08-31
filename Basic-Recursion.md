@@ -4,7 +4,7 @@ def printing_name(i,taking_input):
     if(i>taking_input):
         return
     else:
-        print("Affan")
+        print("yourname")
         printing_name(i+1,taking_input)
         
 taking_input = int(input())       
