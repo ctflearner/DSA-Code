@@ -38,6 +38,8 @@ printing_number(taking_input,1)
 
 # Problem-4: Sum of the first N number
 ```javascript
+PARAMETER-RECURSION
+========================
 def sum_of_number(taking_input,sum_of_the_number):
     
     if(taking_input<1):
@@ -50,4 +52,10 @@ def sum_of_number(taking_input,sum_of_the_number):
 
 taking_input = int(input())
 sum_of_number(taking_input,0)
+
+
+===================
+FUNCTIONAL-RECURSION
+====================
+
 ```
