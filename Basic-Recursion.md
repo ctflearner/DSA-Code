@@ -58,4 +58,14 @@ sum_of_number(taking_input,0)
 FUNCTIONAL-RECURSION
 ====================
 
+def functional_recursion(taking_input):
+    if(taking_input==0):
+        return 0
+    else:
+        return taking_input + functional_recursion(taking_input-1)
+
+
+taking_input=int(input())
+
+print(functional_recursion(taking_input))
 ```
