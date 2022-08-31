@@ -35,3 +35,19 @@ def printing_number(taking_input,i):
 taking_input=int(input())
 printing_number(taking_input,1)
 ```
+
+# Problem-4: Sum of the first N number
+```javascript
+def sum_of_number(taking_input,sum_of_the_number):
+    
+    if(taking_input<1):
+        print("Sum of the number:",sum_of_the_number)
+        return
+    else:
+        sum_of_number(taking_input-1, sum_of_the_number+taking_input)
+        
+
+
+taking_input = int(input())
+sum_of_number(taking_input,0)
+```
