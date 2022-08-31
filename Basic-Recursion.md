@@ -1,4 +1,4 @@
-#Problem-1: printing names N times
+# Problem-1: printing names N times
 ```javascript
 def printing_name(i,taking_input):
     if(i>taking_input):
