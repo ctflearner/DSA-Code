@@ -69,3 +69,19 @@ taking_input=int(input())
 
 print(functional_recursion(taking_input))
 ```
+
+
+# Problem-5: Factorial of N Number
+```javascript
+def functional_recursion(taking_input):
+    if(taking_input==0):
+        return 1
+    else:
+        return taking_input * functional_recursion(taking_input-1)
+
+
+taking_input=int(input())
+
+print(functional_recursion(taking_input))
+        
+```
