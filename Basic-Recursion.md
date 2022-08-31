@@ -23,3 +23,15 @@ def printing_number(i,taking_input):
 taking_input=int(input())
 printing_number(1,taking_input)
 ```
+# Problem-3: Print N to 1 using Recursion
+```javascript
+def printing_number(taking_input,i):
+    if(taking_input==0):
+        return
+    else:
+        print(taking_input)
+        printing_number(taking_input-1,i)
+    
+taking_input=int(input())
+printing_number(taking_input,1)
+```
